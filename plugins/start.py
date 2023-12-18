@@ -88,8 +88,12 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("About Bot", callback_data = "about"),
+                    InlineKeyboardButton("Close", callback_data = "close")
+                ],
+                [
+                InlineKeyboardButton(
+                text="owner", url=f"https://t.me/TEAM_SANGLIYANA")
                 ]
             ]
         )
@@ -110,7 +114,7 @@ async def start_command(client: Client, message: Message):
     
 #=====================================================================================##
 
-WAIT_MSG = """"<b>Processing ...</b>"""
+WAIT_MSG = """"<b>RukjaaBhai ...</b>"""
 
 REPLY_ERROR = """<code>Use this command as a replay to any telegram message with out any spaces.</code>"""
 
@@ -123,7 +127,7 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "Join Channel",
+                "Join BACKUP",
                 url = client.invitelink)
         ]
     ]
@@ -131,7 +135,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = 'DUBARA KARO',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
