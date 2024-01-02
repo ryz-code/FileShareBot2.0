@@ -93,7 +93,7 @@ async def start_command(client: Client, message: Message):
                 ],
                 [
                 InlineKeyboardButton(
-                text="owner", url=f"https://t.me/ZEROTHx2)
+                text="owner", url=f"https://t.me/ZEROTHx2")
                 ]
             ]
         )
