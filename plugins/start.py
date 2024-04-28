@@ -93,7 +93,7 @@ async def start_command(client: Client, message: Message):
                 ],
                 [
                 InlineKeyboardButton(
-                text="✨ Oᴡɴᴇʀ ✨", url=f"https://t.me/ZEROTHx2")
+                text="✨ Oᴡɴᴇʀ ✨", url=f"https://t.me/RyzXD")
                 ]
             ]
         )
@@ -114,7 +114,7 @@ async def start_command(client: Client, message: Message):
     
 #=====================================================================================##
 
-WAIT_MSG = """"<b>RukjaaBhai ...</b>"""
+WAIT_MSG = """"<b>Please Wait...</b>"""
 
 REPLY_ERROR = """<code>Use this command as a replay to any telegram message with out any spaces.</code>"""
 
